@@ -1,0 +1,17 @@
+MINIMUM_GAMES = 5
+MAXIMUM_GAMES = 10
+
+MINIMUM_MINUTES = 5
+MAXIMUM_MINUTES = 60
+
+Player_ID = input("Enter your playerID ")
+
+Number_of_games_played = input("Enter games played ")
+if Number_of_games_played < 5 and 10 >:
+   print("Please enter a number between 5 and 10")
+
+   Score = input("Enter your score ")
+
+   Length_of_Minutes = input("Enter the minutes it took for each game ")
+   if Length_of_Minutes < 5 and 60 >:
+      print("Please enter a number between 5 and 60")
